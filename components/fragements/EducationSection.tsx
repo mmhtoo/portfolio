@@ -6,6 +6,7 @@ import {
   GraduationCap,
   MapPin,
 } from "lucide-react";
+import { Separator } from "../ui/separator";
 
 interface IEducationHistory {
   id: string;
@@ -67,13 +68,18 @@ const EDUCATION_HISTORIES: Array<IEducationHistory> = [
 
 export default function EducationSection() {
   return (
-    <section id="education">
+    <section id="education" className="pb-[100px] bg-white">
       <div className="w-[100%] p-5">
-        <h3 className="text-[16px] md:text-[20px] mb-2 flex gap-2 items-center font-medium">
-          <GraduationCap width={26} height={26} className="font-medium" />{" "}
-          Education
-        </h3>
-        <ul className="w-[100%] border-l md:ps-5 mx-auto md:border-l-0 py-3 md:py-5 flex flex-col  items-center">
+        <div className="mb-2">
+          <h3 className="text-[16px] md:text-[20px] flex gap-2 items-center font-medium">
+            <GraduationCap width={26} height={26} className="font-medium" />{" "}
+            Education
+          </h3>
+          <span className="md:ext-[16px] text-[14px] text-neutral-500">
+            My Education Background
+          </span>
+        </div>
+        <ul className="w-[100%] border-l md:ps-5 mx-auto md:border-l-0 my-5 py-3 flex flex-col  items-center">
           {EDUCATION_HISTORIES.map((education) => {
             return (
               <li
@@ -109,6 +115,7 @@ export default function EducationSection() {
             );
           })}
         </ul>
+        <Separator />
       </div>
     </section>
   );

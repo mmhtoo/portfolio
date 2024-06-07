@@ -5,7 +5,7 @@ import { Separator } from "../ui/separator";
 
 export default function ProfileSection() {
   return (
-    <div className="w-[100%] p-5 ">
+    <div className="w-[100%] p-5 bg-white">
       <div className="border-l-4 ps-5">
         <h1 className="text-[24px] md:text-[32px] font-medium">
           Hi, I&apos;m Myo Min Htoo!

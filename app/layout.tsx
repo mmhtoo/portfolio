@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { robotoMono } from "@/constants";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Myo Min Htoo",
@@ -13,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={robotoMono.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={cn(robotoMono.className)}>{children}</body>
     </html>
   );
 }
