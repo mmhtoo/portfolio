@@ -32,7 +32,7 @@ export default function HeaderBar() {
   return (
     <section
       id="section"
-      className="w-[100%] px-3 pb-3 fixed top-0 flex bg-white  justify-center items-center"
+      className="w-[100%] px-3 pb-3 fixed z-10 top-0 flex bg-white  justify-center items-center"
     >
       <header className="bg-white px-5 shadow border border-neutral-100 rounded-2xl mt-5 ">
         <ul className="flex items-center justify-center gap-5">

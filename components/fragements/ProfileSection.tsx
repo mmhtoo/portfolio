@@ -7,14 +7,20 @@ export default function ProfileSection() {
   return (
     <div className="w-[100%] p-5 ">
       <div className="border-l-4 ps-5">
-        <h1 className="text-[32px] font-medium">Hi, I&apos;m Myo Min Htoo!</h1>
-        <h3> Web & Mobile Developer with 2 Years Experience</h3>
+        <h1 className="text-[24px] md:text-[32px] font-medium">
+          Hi, I&apos;m Myo Min Htoo!
+        </h1>
+        <h3 className="md:text-[16px] text-[14px]">
+          {" "}
+          Web & Mobile Developer with 2 Years Experience
+        </h3>
       </div>
       <section className="py-5 mt-[32px]">
-        <h3 className="text-[20px] mb-2 flex gap-2 items-center font-medium">
-          <User width={26} height={26} className="font-medium" /> Profile
+        <h3 className="text-[16px] md:text-[20px] mb-2 flex gap-2 items-center font-medium">
+          <User className="md:w-[26px] md:h-[26px] w-[20px] h-[20px] font-medium" />{" "}
+          Profile
         </h3>
-        <p>
+        <p className="md:text-[16px] text-[14px]">
           I&apos;m from Yangon, Myanmar and 20 years old now. Currently,
           I&apos;m working as remote fulltime web and mobile developer at{" "}
           <a
