@@ -1,13 +1,31 @@
-import { Download, User } from "lucide-react";
+import { Download, Facebook, Github, Linkedin, User } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 import Image from "next/image";
 
+export const SOCIAL_PLATFORMS = [
+  {
+    id: "1",
+    Icon: Github,
+    href: "https://github.com/mmhtoo",
+  },
+  {
+    id: "2",
+    Icon: Linkedin,
+    href: "www.linkedin.com/in/myo-min-htoo-380546249",
+  },
+  {
+    id: "3",
+    Icon: Facebook,
+    href: "https://www.facebook.com/makhaing.makhaing.562329?mibextid=ZbWKwL",
+  },
+];
+
 export default function ProfileSection() {
   return (
     <div className="w-[100%] p-5 bg-white">
-      <div className="border-l-4 ps-5">
+      <div className="border-l-4 ps-5 py-3">
         <h1 className="text-[24px] md:text-[32px] font-medium">
           Hi, I&apos;m Myo Min Htoo!
         </h1>
@@ -15,6 +33,20 @@ export default function ProfileSection() {
           {" "}
           Web & Mobile Developer with 2 Years Experience
         </h3>
+        <ul className="flex items-center gap-5 py-1">
+          {SOCIAL_PLATFORMS.map((social) => {
+            return (
+              <li
+                className="hover:cursor-pointer hover:bg-neutral-200  p-2 rounded-full transition-all"
+                key={social.id}
+              >
+                <a href={social.href} target="_blank">
+                  <social.Icon width={16} height={16} />
+                </a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
       <div className="w-[100%] my-5">
         <Image
