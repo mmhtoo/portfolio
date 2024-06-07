@@ -23,20 +23,20 @@ const MENUS = [
   },
   {
     id: "3",
-    label: "Experience",
-    href: "",
+    label: "Experiences",
+    href: "/#experience",
     Icon: BrainCircuit,
   },
   {
     id: "4",
     label: "Projects",
-    href: "",
+    href: "/#projects",
     Icon: PanelsTopLeft,
   },
   {
     id: "5",
     label: "Contacts",
-    href: "",
+    href: "/#contacts",
     Icon: Contact,
   },
 ];

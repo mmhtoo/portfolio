@@ -64,11 +64,20 @@ const EDUCATION_HISTORIES: Array<IEducationHistory> = [
     schoolName: "JLink - Japanese Langugage & Education Centre",
     schoolLink: "https://www.facebook.com/jlinkmyanmar?mibextid=ZbWKwL",
   },
+  {
+    id: "6",
+    label: "Computer Science",
+    timeFrom: "2020 Dec",
+    timeTo: "2021 Mar",
+    isPresent: false,
+    schoolName: "University of Computer Studies,Yangon",
+    schoolLink: "https://www.ucsy.edu.mm",
+  },
 ];
 
 export default function EducationSection() {
   return (
-    <section id="education" className="pb-[100px] bg-white">
+    <section id="education" className="bg-white">
       <div className="w-[100%] p-5">
         <div className="mb-2">
           <h3 className="text-[16px] md:text-[20px] flex gap-2 items-center font-medium">
@@ -92,7 +101,10 @@ export default function EducationSection() {
                   width={20}
                   height={20}
                   className={cn(
-                    "absolute text-orange-500 top-[40%] animate-pulse rounded-full left-[-3%] md:left-[-1.6%]  ",
+                    "absolute top-[40%] animate-pulse rounded-full left-[-3%] md:left-[-1.6%]  ",
+                    {
+                      "text-green-500": education.isPresent,
+                    },
                   )}
                 />
                 <div className="flex flex-col gap-3">

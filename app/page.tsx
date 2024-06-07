@@ -1,6 +1,7 @@
 import React from "react";
 import {
   EducationSection,
+  ExperienceSection,
   HeaderBar,
   ProfileSection,
 } from "@/components/fragements";
@@ -14,6 +15,8 @@ export default function HomePage() {
         <ProfileSection />
         {/* education section */}
         <EducationSection />
+        {/* professional experience section */}
+        <ExperienceSection />
       </div>
     </>
   );
