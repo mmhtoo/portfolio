@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  ContactSection,
   EducationSection,
   ExperienceSection,
   HeaderBar,
@@ -17,6 +18,8 @@ export default function HomePage() {
         <EducationSection />
         {/* professional experience section */}
         <ExperienceSection />
+        {/* contacts section */}
+        <ContactSection />
       </div>
     </>
   );

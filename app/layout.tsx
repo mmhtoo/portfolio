@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Myo Min Htoo",
   description: "A Web | Mobile Developer",
+  icons: "/images/cover-image.jpeg",
 };
 
 export default function RootLayout({

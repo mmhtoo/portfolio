@@ -72,7 +72,7 @@ const PROFESSIONALEXPERIENCES: Array<IExperienceHistory> = [
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="pb-[100px] p-5 bg-white">
+    <section id="experience" className="p-5 bg-white">
       <div>
         <h3 className="text-[16px] md:text-[20px] flex gap-2 items-center font-medium">
           <BrainCircuit width={26} height={26} className="font-medium" />{" "}
