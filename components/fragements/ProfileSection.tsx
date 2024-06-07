@@ -2,6 +2,7 @@ import { Download, User } from "lucide-react";
 import React from "react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
+import Image from "next/image";
 
 export default function ProfileSection() {
   return (
@@ -15,7 +16,16 @@ export default function ProfileSection() {
           Web & Mobile Developer with 2 Years Experience
         </h3>
       </div>
-      <section className="py-5 mt-[32px]">
+      <div className="w-[100%] my-5">
+        <Image
+          src={"/images/cover-image.jpeg"}
+          alt="cover-image"
+          width={200}
+          height={200}
+          className=" md:mx-0 mx-auto"
+        />
+      </div>
+      <section className="py-3">
         <h3 className="text-[16px] md:text-[20px] mb-2 flex gap-2 items-center font-medium">
           <User className="md:w-[26px] md:h-[26px] w-[20px] h-[20px] font-medium" />{" "}
           Profile
