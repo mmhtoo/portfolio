@@ -29,10 +29,7 @@ export default function ProfileSection() {
         <h1 className="text-[24px] md:text-[32px] font-medium">
           Hi, I&apos;m Myo Min Htoo!
         </h1>
-        <h3 className="md:text-[16px] text-[14px]">
-          {" "}
-          Web & Mobile Developer with 2 Years Experience
-        </h3>
+        <h3 className="md:text-[16px] text-[14px]"> Web & Mobile Developer</h3>
         <ul className="flex items-center gap-5 py-1">
           {SOCIAL_PLATFORMS.map((social) => {
             return (

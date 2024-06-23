@@ -30,7 +30,7 @@ const MENUS = [
   {
     id: "4",
     label: "Projects",
-    href: "/#projects",
+    href: "/projects",
     Icon: PanelsTopLeft,
   },
   {
@@ -52,7 +52,7 @@ export default function HeaderBar() {
           {MENUS.map((menu) => (
             <Link href={menu.href} key={menu.id}>
               <li
-                className="hover:cursor-pointer flex gap-2 items-center text-[14px] py-2 px-4 transition-all hover:font-medium hover:bg-neutral-100 rounded-2xl leading-loose"
+                className="hover:cursor-pointer flex gap-2 items-center text-[14px] sm:py-2 sm:px-4 px-5 py-3 transition-all hover:font-medium hover:bg-neutral-100 rounded-2xl leading-loose"
                 key={menu.id}
               >
                 <menu.Icon className="md:w-[16px] md:h-[16px] " />
