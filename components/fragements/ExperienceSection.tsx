@@ -20,8 +20,8 @@ const PROFESSIONALEXPERIENCES: Array<IExperienceHistory> = [
     id: "1",
     position: "Remote Full Stack Developer",
     timeFrom: "2024 Mar",
-    timeTo: "Present",
-    isPresent: true,
+    timeTo: "2024 May",
+    isPresent: false,
     previewDescription:
       "As a full stack developer, I'm responsible for developing web APIs, cross-platform mobile applications with React-Native, building system basic designs, deploying on AWS cloud services and testing applications.",
     detailDescription:

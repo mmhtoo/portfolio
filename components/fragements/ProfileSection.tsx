@@ -63,20 +63,13 @@ export default function ProfileSection() {
           Profile
         </h3>
         <p className="md:text-[16px] text-[14px]">
-          I&apos;m from Yangon, Myanmar and 20 years old now. Currently,
-          I&apos;m working as remote fulltime web and mobile developer at{" "}
-          <a
-            href="https://wer.co.jp"
-            className="text-blue-500 underline hover:text-blue-400 hover:transition-colors hover:cursor-pointer"
-          >
-            WeR Inc
-          </a>
-          . I&apos;ve 2 years experience about developing, maintaining and
-          testing for dynamic, robust and scalable web applications, APIs and
-          cross platform mobile development with React-Native. I&apos;m
-          passionate to learn new technologies, interactive for colloboration
-          with teammates and delivering my excellent experiences to enhance my
-          business owners&apos; values.
+          I&apos;m from Yangon, Myanmar and 20 years old now. I&apos;ve 2 years
+          experience about developing, maintaining and testing for dynamic,
+          robust and scalable web applications, APIs and cross platform mobile
+          development with React-Native. I&apos;m passionate to learn new
+          technologies, interactive for colloboration with teammates and
+          delivering my excellent experiences to enhance my business
+          owners&apos; values.
         </p>
         <div className="w-[100%] px-8 py-10 flex justify-end ">
           <Button className="flex items-center gap-2">
