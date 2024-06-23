@@ -69,10 +69,12 @@ export default function ProfileSection() {
           owners&apos; values.
         </p>
         <div className="w-[100%] px-8 py-10 flex justify-end ">
-          <Button className="flex items-center gap-2">
-            <Download width={20} height={20} className="font-bold" />
-            Resume
-          </Button>
+          <a href={"/files/MYOMINHTOO_RESUME.pdf"} download>
+            <Button className="flex items-center gap-2">
+              <Download width={20} height={20} className="font-bold" />
+              Resume
+            </Button>
+          </a>
         </div>
         <Separator />
       </section>

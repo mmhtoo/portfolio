@@ -110,6 +110,7 @@ const PROJECTS: Array<IProjectCard> = [
     position: "On Job Training",
     developedAt: "ACE Inspiration",
     companyLink: "https://www.facebook.com/aceinspiration?mibextid=ZbWKwL",
+    projectLink: "https://github.com/myominhtoo/dat-bbs-frontend",
   },
   {
     id: 8,
@@ -122,6 +123,7 @@ const PROJECTS: Array<IProjectCard> = [
     position: "Student",
     developedAt: "ACE Inspiration",
     companyLink: "https://www.facebook.com/aceinspiration?mibextid=ZbWKwL",
+    projectLink: "https://github.com/myominhtoo/hexa_spa",
   },
 ];
 

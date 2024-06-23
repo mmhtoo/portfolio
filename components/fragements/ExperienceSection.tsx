@@ -25,7 +25,7 @@ const PROFESSIONALEXPERIENCES: Array<IExperienceHistory> = [
     previewDescription:
       "As a full stack developer, I'm responsible for developing web APIs, cross-platform mobile applications with React-Native, building system basic designs, deploying on AWS cloud services and testing applications.",
     detailDescription:
-      "I'm currently developing Mentoring Application that focus on ticket management for taking mentoring sessions from other users.I'm specially using NestJs for developing Web APIs, React-Native for mobile applications, Jest for testing our typescript code bases, PostgreSQL for database, Firebase for authentication, cloud storage and push notifications, Stripe for secure payment gateway, Docker for containerization, AWS Elastic Bean Stalk for deployments and ECR for storing our docker images. As communication with customers, I mostly use Japanese and English.",
+      "I developed Mentoring Application that focus on ticket management for taking mentoring sessions from other users.I'm specially using NestJs for developing Web APIs, React-Native for mobile applications, Jest for testing our typescript code bases, PostgreSQL for database, Firebase for authentication, cloud storage and push notifications, Stripe for secure payment gateway, Docker for containerization, AWS Elastic Bean Stalk for deployments and ECR for storing our docker images. As communication with customers, I mostly use Japanese and English to communicate with clients.",
     company: "WeR Inc.",
     companyLink: "https://wer.co.jp",
   },
