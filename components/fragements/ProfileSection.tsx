@@ -13,7 +13,7 @@ export const SOCIAL_PLATFORMS = [
   {
     id: "2",
     Icon: Linkedin,
-    href: "www.linkedin.com/in/myo-min-htoo-380546249",
+    href: "https://www.linkedin.com/in/myo-min-htoo-380546249",
   },
   {
     id: "3",
